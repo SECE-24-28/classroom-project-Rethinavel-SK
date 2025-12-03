@@ -1,10 +1,9 @@
 import React from "react";
-import {FormStyle} from "./Form.js"
+import {FormStyle} from "./Form.js";
 const StudentForm = () => {
     return <FormStyle>(
         <div className="container">
             <h2>Student Registration Form</h2>
-
             <form>
                 <div className="input-group">
                     <label>Full Name</label>

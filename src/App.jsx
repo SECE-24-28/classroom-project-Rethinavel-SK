@@ -1,9 +1,15 @@
 import "./App.css";
-import StudentRegister from "./Student-Registeration/Form.jsx";
+import HeadingComponent from "./Heading/Heading-component";
+import LeadersTomorrowComponent from "./leaders-tommorow/leaders-tommorow-component";
 
 function App() {
   return (
-    <StudentRegister/>
+    <div>
+      {/* <HelloWorldComponent /> */}
+      {/* <FlexBoxComponent /> */}
+      {<HeadingComponent />}
+      {<LeadersTomorrowComponent />}
+    </div>
   );
 }
 
