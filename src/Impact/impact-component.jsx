@@ -4,19 +4,36 @@ const ImpactComponent = () => {
     return (
         <ImpactStyle>
             <div className="heading">
-                <h1>Impact at a Glance</h1>
+                Impact at a 
+                <span className="red"> Glance</span>
             </div>
             <div className="parent"> 
-                <div className="firstbox">
-                    <span className="">Colleges</span>
-                    <br />
-                    <span className="">100+</span>
+                <div className="flex1">
+                    <div className="child1">
+                        <span className="details">Colleges</span>
+                        <br />
+                        <span className="numbers">100+</span>
+                    </div>
+                    <div className="child2">
+                        <span className="details">Students</span>
+                        <br />
+                        <span className="numbers">100000+</span>
+                    </div>
                 </div>
-                <div className="second box"></div>
-            </div>
-            <div className="parent2">
-                <div className="thirdbox"></div>
-                <div className="fouthbox"></div>
+                <br/>
+                <br/>
+                <div className="flex2">
+                    <div className="child3">
+                        <span className="details">Study Material</span>
+                        <br />
+                        <span className="number">1000+</span>
+                    </div>
+                    <div className="child4">
+                        <span className="details">Professional Trainers</span>
+                        <br />
+                        <span className="number">150</span>
+                    </div>
+                </div>
             </div>
         </ImpactStyle>
     )
